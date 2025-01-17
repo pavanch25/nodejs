@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: public.ecr.aws/g6m8m4s9/nodejs:latest
+        image: docker.io/node
         ports:
         - containerPort: 8080
 ---
